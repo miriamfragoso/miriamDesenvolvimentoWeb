@@ -1,0 +1,93 @@
+.bio-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Coluna da imagem */
+.bio-foto {
+  flex: 1 1 50%;
+  text-align: center;
+}
+
+/* Imagem responsiva e bem posicionada */
+.foto-perfil {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Coluna do texto */
+.bio-texto {
+  flex: 1 1 50%;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cbcccd;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: rgb(147, 145, 147);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Estilo comum para todas as seções */
+.secao {
+  background-color: rgb(233, 155, 237);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Cores diferentes para cada seção */
+.inicio {
+  background-color: rgb(195, 207, 228); /* azul claro */
+}
+
+.sobre {
+  background-color: rgb(181, 220, 246); /* azul intermediário */
+}
+
+.formacao {
+  background-color: #bbdff1; /* verde claro */
+}
+.portifolio {
+  background-color: rgb(172, 208, 234);
+}
+
+.contato {
+  background-color: rgb(156, 201, 220); /* azul piscina */
+}
+
+footer {
+  background-color: rgb(150, 149, 150);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
